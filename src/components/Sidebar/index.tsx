@@ -5,7 +5,7 @@ import { useGlobalState } from "../../context/globalProvider";
 import Image from 'next/image';
 import menu  from "../../utils/menu";
 import Link from 'next/link';
-import { usePathname, useRouter } from 'next/navigation';
+import { usePathname, useRouter } from "next/navigation";
 
 function Sidebar() {
     const {theme} = useGlobalState();
@@ -135,7 +135,7 @@ const SidebarStyled = styled.nav`
 
     .nav-item{
         position: relative;
-        padding: 0.8rem 1rem 0.9rem 2.1rem;
+        padding: 0.8rem 1rem 0.9rem 1rem;
         margin: 0.3rem 0;
         display: grid;
         grid-template-columns: 40px 1fr;
